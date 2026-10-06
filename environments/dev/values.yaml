@@ -1,1 +1,12 @@
-replicaCount: 2
+replicaCount: 1
+
+podAnnotations:
+  environment: dev
+
+resources:
+  limits:
+    cpu: 100m
+    memory: 128Mi
+  requests:
+    cpu: 25m
+    memory: 32Mi

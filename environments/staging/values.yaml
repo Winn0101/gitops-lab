@@ -1,1 +1,12 @@
-replicaCount: 3
+replicaCount: 2
+
+podAnnotations:
+  environment: staging
+
+resources:
+  limits:
+    cpu: 200m
+    memory: 256Mi
+  requests:
+    cpu: 50m
+    memory: 64Mi
