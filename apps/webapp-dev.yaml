@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/winn0101/gitops-lab.git
+    repoURL: https://github.com/Winn0101/gitops-lab.git
     targetRevision: HEAD
     path: charts/webapp
     helm:
