@@ -17,7 +17,7 @@ spec:
     namespace: webapp-staging
   syncPolicy:
     automated:
-      prune: true
+      prune: confirm
       selfHeal: true
     syncOptions:
       - CreateNamespace=true
